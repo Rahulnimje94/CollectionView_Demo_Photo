@@ -14,6 +14,8 @@
 		17BFC0E91FDD56F800FDEAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BFC0E71FDD56F800FDEAC9 /* LaunchScreen.storyboard */; };
 		17BFC0F41FDD56F800FDEAC9 /* CollectionView_PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFC0F31FDD56F800FDEAC9 /* CollectionView_PhotoTests.swift */; };
 		17BFC0FF1FDD56F800FDEAC9 /* CollectionView_PhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFC0FE1FDD56F800FDEAC9 /* CollectionView_PhotoUITests.swift */; };
+		17BFC10D1FDD588B00FDEAC9 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFC10C1FDD588B00FDEAC9 /* CustomCell.swift */; };
+		17E227421FDE5DD300C4A80D /* photoShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E227411FDE5DD300C4A80D /* photoShow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		17BFC0FA1FDD56F800FDEAC9 /* CollectionView_PhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionView_PhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BFC0FE1FDD56F800FDEAC9 /* CollectionView_PhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView_PhotoUITests.swift; sourceTree = "<group>"; };
 		17BFC1001FDD56F800FDEAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BFC10C1FDD588B00FDEAC9 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		17E227411FDE5DD300C4A80D /* photoShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoShow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				17BFC0E51FDD56F800FDEAC9 /* Assets.xcassets */,
 				17BFC0E71FDD56F800FDEAC9 /* LaunchScreen.storyboard */,
 				17BFC0EA1FDD56F800FDEAC9 /* Info.plist */,
+				17BFC10C1FDD588B00FDEAC9 /* CustomCell.swift */,
+				17E227411FDE5DD300C4A80D /* photoShow.swift */,
 			);
 			path = CollectionView_Photo;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				17BFC0E11FDD56F800FDEAC9 /* ViewController.swift in Sources */,
+				17E227421FDE5DD300C4A80D /* photoShow.swift in Sources */,
+				17BFC10D1FDD588B00FDEAC9 /* CustomCell.swift in Sources */,
 				17BFC0DF1FDD56F800FDEAC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				17BFC1051FDD56F800FDEAC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17BFC1061FDD56F800FDEAC9 /* Build configuration list for PBXNativeTarget "CollectionView_PhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				17BFC1081FDD56F800FDEAC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17BFC1091FDD56F800FDEAC9 /* Build configuration list for PBXNativeTarget "CollectionView_PhotoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				17BFC10B1FDD56F800FDEAC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
